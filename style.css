@@ -248,3 +248,43 @@ body {
 .btn-reservar:hover {
   background-color: #f0c300;
 }
+
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.about-text {
+  flex: 1 1 400px;
+  font-size: 1.1em;
+  line-height: 1.8;
+  color: #044343;
+}
+
+.about-text p {
+  margin-bottom: 15px;
+}
+
+.about-img {
+  flex: 1 1 300px;
+  text-align: center;
+}
+
+.about-img img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
+    text-align: center;
+  }
+}
